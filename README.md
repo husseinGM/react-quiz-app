@@ -9,6 +9,7 @@ iam fetched data from API (Trivia), data returned from request contains:
    4. incorrect_answer
    5. question
    6. type
+   
 iam created types to all these properties, and added to it new property called (answers) and this is array of string that contains all answers [correct_answer and incorrect_answer],after that in folder units i'm created function that shuffle this array of answers. all these field stored in state , and loop through this state and create component that mean every question have this component structure, iam called it QuestionCart. we passed to QuestionCart components props to control handle logic.
 
 iam said that iam created new property called answers that contins all answers, in QuestionCart we loop in these answers to show all answers to users.
